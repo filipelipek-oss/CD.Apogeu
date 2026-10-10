@@ -1,0 +1,67 @@
+{
+  "name": "OPERAÇÃO APOGEU | FILIPE OLIVEIRA SANTOS — CÂMARA DOS DEPUTADOS",
+  "short_name": "APOGEU ARQ",
+  "description": "Sistema tático de preparação de alto rendimento para o concurso de Analista Legislativo - Área: Arquivologia (Câmara dos Deputados).",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Plano Tático",
+      "short_name": "Plano",
+      "description": "Acessar cronograma semanal datado",
+      "url": "./index.html#plan",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Diretriz Reta Final",
+      "short_name": "Missão",
+      "description": "Acompanhar metas e pontuação acumulada",
+      "url": "./index.html#mission",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Simulado Discursivas (P3)",
+      "short_name": "Discursivas",
+      "description": "Acompanhar comparativo e curva de notas discursivas",
+      "url": "./index.html#stats",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
